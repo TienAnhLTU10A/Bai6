@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tienanh.fragment.ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvThirdFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Fragment"
+        android:layout_marginTop="196dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBackto2ndFragment"
+        android:text="Back To Previous Fragment"
+        android:layout_below="@+id/tvThirdFragment"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
